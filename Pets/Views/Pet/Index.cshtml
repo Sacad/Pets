@@ -1,0 +1,28 @@
+﻿@model IEnumerable<AGLTest.Models.Cat>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>@AGLTest.Models.Enums.Gender.Male</h2>
+
+<ul>
+    @foreach (var item in Model.Where(s=>s.OwnerGender==AGLTest.Models.Enums.Gender.Male.ToString())) 
+    {    
+        <li>@item.Name</li>    
+
+    }
+
+</ul>
+
+<h2>@AGLTest.Models.Enums.Gender.Female</h2>
+
+<ul>
+    @foreach (var item in Model.Where(s => s.OwnerGender == AGLTest.Models.Enums.Gender.Female.ToString())) 
+    {    
+        <li>@item.Name</li>    
+
+    }
+
+</ul>

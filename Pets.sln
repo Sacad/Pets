@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets", "Pets\Pets.csproj", "{B2ADBC65-1701-43D7-9AA2-2B56CB2CA01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets.UnitTests", "Pets.UnitTests\Pets.UnitTests.csproj", "{2723A551-4D6A-49FE-8542-2B1B19CFEF42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2ADBC65-1701-43D7-9AA2-2B56CB2CA01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2ADBC65-1701-43D7-9AA2-2B56CB2CA01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2ADBC65-1701-43D7-9AA2-2B56CB2CA01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2ADBC65-1701-43D7-9AA2-2B56CB2CA01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2723A551-4D6A-49FE-8542-2B1B19CFEF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2723A551-4D6A-49FE-8542-2B1B19CFEF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2723A551-4D6A-49FE-8542-2B1B19CFEF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2723A551-4D6A-49FE-8542-2B1B19CFEF42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2D8A7F8-0D60-43D9-96F8-4B979F920BD1}
+	EndGlobalSection
+EndGlobal
