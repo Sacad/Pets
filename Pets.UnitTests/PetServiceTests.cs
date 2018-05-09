@@ -11,12 +11,12 @@ namespace AGLTest.UnitTests
     [TestFixture]
     public class PetServiceTests
     {
-        private Mock<IWebClient> _WebClientMock;
+        private Mock<IWebClient> _webClientMock;
         
         [SetUp]
         public void Setup()
         {
-            _WebClientMock = new Mock<IWebClient>();
+            _webClientMock = new Mock<IWebClient>();
         }
 
         public PetService CreatePetService()

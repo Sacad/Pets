@@ -8,7 +8,7 @@ using System.Collections.Generic;
 namespace AGLTest.UnitTests
 {
     [TestFixture]
-    public class SerialiserServiceTests
+    public class OwnersSerialiserTests
     {
         public OwnersSerialiser CreateSerialiser()
         {
@@ -32,7 +32,6 @@ namespace AGLTest.UnitTests
             //assert
 
             Assert.IsInstanceOf<IEnumerable<Owner>>(response);
-
         }
 
         [TestCase]
@@ -51,10 +50,6 @@ namespace AGLTest.UnitTests
             //assert
 
             Assert.IsNull(response);
-
         }
-
-       
-        
     }
 }

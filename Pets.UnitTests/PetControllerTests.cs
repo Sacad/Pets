@@ -1,8 +1,6 @@
 ﻿using NUnit.Framework;
 using Moq;
 using Assert = NUnit.Framework.Assert;
-
-
 using AGLTest.Services;
 using AGLTest.Controllers;
 using AGLTest.Models;
@@ -69,14 +67,14 @@ namespace AGLTest.UnitTests
         {
             //arrange
             
-            var cat = new List<Cat>()
+            var cat = new List<Cat>
             {
-                new Cat()
+                new Cat
                 {
                     Name = "Bob",
                     OwnerGender = "Male"
                 },
-                new Cat()
+                new Cat
                 {
                     Name = "smith",
                     OwnerGender = "Male"
